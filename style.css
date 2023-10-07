@@ -52,6 +52,8 @@
 /* Custom CSS */
 
 body {
+    height: 100vh;
+    height: 100dvh;
     font-family: 'Barlow Semi Condensed', sans-serif;
     font-size: 13px;
     font-weight: var(--fw-regular);
@@ -59,6 +61,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 .main-grid {
@@ -115,7 +118,7 @@ body {
 }
 
 
-.attribution {
+/* .attribution {
     text-align: center;
     color: var(--clr-neutral-200);
     padding: 0.5rem;
@@ -126,8 +129,8 @@ body {
 }
 
 .attribution a:hover {
-    color: var(--clr-accent);
-}
+    color: var(--clr-accent); 
+}*/
 
 @media screen and (min-width:775px) and (max-width:1149px){
     .main-grid{
@@ -168,6 +171,7 @@ body {
     }
 
     .main-grid .testimonial:nth-child(1){
+        background-position: 80% top;
         grid-column-end: span 2;
     }
 

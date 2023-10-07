@@ -52,8 +52,6 @@
 /* Custom CSS */
 
 body {
-    height: 100vh;
-    height: 100dvh;
     font-family: 'Barlow Semi Condensed', sans-serif;
     font-size: 13px;
     font-weight: var(--fw-regular);
@@ -76,7 +74,7 @@ body {
     gap: 1rem;
     border-radius: 0.5rem;
     padding: 1.5rem 2rem 2rem 2rem;
-    box-shadow: 10px 10px 30px var(--clr-neutral-200);
+    box-shadow: 40px 10px 30px rgba(0,0,0,0.07);
 }
 
 .testimonial h2 {
@@ -117,22 +115,8 @@ body {
     }
 }
 
-
-/* .attribution {
-    text-align: center;
-    color: var(--clr-neutral-200);
-    padding: 0.5rem;
-}
-
-.attribution a{
-    color: inherit;
-}
-
-.attribution a:hover {
-    color: var(--clr-accent); 
-}*/
-
 @media screen and (min-width:775px) and (max-width:1149px){
+  
     .main-grid{
         grid-template: repeat(4, auto) / repeat(4,1fr);
     }
@@ -165,8 +149,17 @@ body {
 }
 
 @media screen and (min-width:1150px){
+    body {
+        height: 100vh;
+        height: 100dvh;
+    }
+    .testimonial h2 {
+        font-size: 1.225rem;
+    }
     .main-grid{
-        max-width: 1150px;
+        /* max-width: 1150px; */
+        max-width: 90%;
+        column-gap: 2rem;
         grid-template: auto auto/ repeat(4, 1fr);
     }
 

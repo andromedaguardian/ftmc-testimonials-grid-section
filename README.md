@@ -4,8 +4,8 @@ This is a solution to the [Testimonials grid section challenge on Frontend Mento
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/responsive-grid-layout-solution-UYBxOKryGJ)
-- Live Site URL: [Add live site URL here](https://heartfelt-trifle-f14302.netlify.app/)
+- Solution URL: [here](https://www.frontendmentor.io/solutions/responsive-grid-layout-solution-UYBxOKryGJ)
+- Live Site URL: [here](https://heartfelt-trifle-f14302.netlify.app/)
 
 ### Built with
 
